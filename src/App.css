@@ -1,0 +1,55 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 10px 15px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-actions select,
+.task-actions input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.task-actions button {
+  padding: 5px 10px;
+}
+
